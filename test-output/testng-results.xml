@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-07T21:14:14 IST" name="Suite" finished-at="2025-03-07T21:15:31 IST" duration-ms="76752">
+    <groups>
+      <group name="sanity">
+        <method signature="FormManagement_L1_TestCases.validateTitleOfHomePage()[pri:1, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="validateTitleOfHomePage" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.clickOnSwitchToAlertandValidateTitleOfPage()[pri:2, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="clickOnSwitchToAlertandValidateTitleOfPage" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup()[pri:3, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.clickOnRegisterLinkAndFillTheForms()[pri:4, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="clickOnRegisterLinkAndFillTheForms" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne()[pri:5, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.selectAustraliaInCountryDrpdownAndValidate()[pri:6, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="selectAustraliaInCountryDrpdownAndValidate" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.checkAndUncheckEachCheckBoxAndValidateThatCheckBox()[pri:7, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="checkAndUncheckEachCheckBoxAndValidateThatCheckBox" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect()[pri:8, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.selectMonthYearDateInDropdown()[pri:9, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="selectMonthYearDateInDropdown" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.fillTheDetailsAndClickOnTheSubmitButton()[pri:10, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="fillTheDetailsAndClickOnTheSubmitButton" class="testcases.FormManagement_L1_TestCases"/>
+        <method signature="FormManagement_L1_TestCases.afterClickOnSeleniumCrossBrowserTestingDisplayTheText()[pri:11, instance:testcases.FormManagement_L1_TestCases@552518c3]" name="afterClickOnSeleniumCrossBrowserTestingDisplayTheText" class="testcases.FormManagement_L1_TestCases"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2025-03-07T21:14:14 IST" name="Test" finished-at="2025-03-07T21:15:31 IST" duration-ms="76752">
+      <class name="testcases.FormManagement_L1_TestCases">
+        <test-method is-config="true" signature="initBrowser(java.lang.String,java.lang.String)[pri:0, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:14 IST" name="initBrowser" finished-at="2025-03-07T21:14:20 IST" duration-ms="6050" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dev]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="validateTitleOfHomePage()[pri:1, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:20 IST" name="validateTitleOfHomePage" description="Navigate to the URL and Validate the Home Page" finished-at="2025-03-07T21:14:20 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitleOfHomePage -->
+        <test-method signature="clickOnSwitchToAlertandValidateTitleOfPage()[pri:2, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:24 IST" name="clickOnSwitchToAlertandValidateTitleOfPage" description="Click SwitchTo  Alert Link. and Validate if control is navigated to new page" finished-at="2025-03-07T21:14:27 IST" duration-ms="2316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSwitchToAlertandValidateTitleOfPage -->
+        <test-method signature="handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup()[pri:3, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:30 IST" name="handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup" description="Click on button to display the alert box and Validate if alert popup is shown." finished-at="2025-03-07T21:14:35 IST" duration-ms="5150" status="FAIL">
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [200202bc8306fac815e5e577f96afd85, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 200202bc8306fac815e5e577f96afd85]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=122.0.6261.95)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [200202bc8306fac815e5e577f96afd85, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 200202bc8306fac815e5e577f96afd85
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.getText(RemoteWebDriver.java:1105)
+at pages.FormManagement_L1_Pages.handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup(FormManagement_L1_Pages.java:133)
+at testcases.FormManagement_L1_TestCases.handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup(FormManagement_L1_TestCases.java:73)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup -->
+        <test-method signature="clickOnRegisterLinkAndFillTheForms()[pri:4, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:38 IST" name="clickOnRegisterLinkAndFillTheForms" description="Click on Register menu option to navigate to Register page. and  Fill the form with data provided in excel sheet." finished-at="2025-03-07T21:14:38 IST" duration-ms="2" status="FAIL">
+          <exception class="org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException">
+            <message>
+              <![CDATA[No valid entries or contents found, this is not a valid OOXML (Office Open XML) file]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:156)
+at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.<init>(ZipInputStreamZipEntrySource.java:94)
+at org.apache.poi.openxml4j.opc.ZipPackage.<init>(ZipPackage.java:132)
+at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:290)
+at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:286)
+at coreUtilities.utils.FileOperations.readExcelPOI(FileOperations.java:44)
+at testcases.FormManagement_L1_TestCases.clickOnRegisterLinkAndFillTheForms(FormManagement_L1_TestCases.java:81)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0X90A0D7B
+at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:260)
+at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:152)
+... 23 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnRegisterLinkAndFillTheForms -->
+        <test-method signature="clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne()[pri:5, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:41 IST" name="clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne" description="Click on the country dropdown and Select each country option one by one." finished-at="2025-03-07T21:14:53 IST" duration-ms="11840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne -->
+        <test-method signature="selectAustraliaInCountryDrpdownAndValidate()[pri:6, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:14:57 IST" name="selectAustraliaInCountryDrpdownAndValidate" description="Click on the country dropdown and Validate if each country option is selectable from the dropdown." finished-at="2025-03-07T21:14:57 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAustraliaInCountryDrpdownAndValidate -->
+        <test-method signature="checkAndUncheckEachCheckBoxAndValidateThatCheckBox()[pri:7, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:00 IST" name="checkAndUncheckEachCheckBoxAndValidateThatCheckBox" description=" Check and uncheck each hobby checkbox and Validate that the checkboxes are responding correctly to user interaction, allowing selection and deselection." finished-at="2025-03-07T21:15:01 IST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAndUncheckEachCheckBoxAndValidateThatCheckBox -->
+        <test-method signature="selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect()[pri:8, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:04 IST" name="selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect" description="Select each radio button option for gender and Validate that only one radio button option should be selectable at a time." finished-at="2025-03-07T21:15:08 IST" duration-ms="4217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect -->
+        <test-method signature="selectMonthYearDateInDropdown()[pri:9, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:11 IST" name="selectMonthYearDateInDropdown" description="Select different dates from the Date Of Birth fields" finished-at="2025-03-07T21:15:12 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMonthYearDateInDropdown -->
+        <test-method signature="fillTheDetailsAndClickOnTheSubmitButton()[pri:10, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:15 IST" name="fillTheDetailsAndClickOnTheSubmitButton" description="click On Register And Fill FirstNameTextbox lastNameTextbox addressInputAreabox emailAddress Textbox And submitButton" finished-at="2025-03-07T21:15:22 IST" duration-ms="6997" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fillTheDetailsAndClickOnTheSubmitButton -->
+        <test-method signature="afterClickOnSeleniumCrossBrowserTestingDisplayTheText()[pri:11, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:25 IST" name="afterClickOnSeleniumCrossBrowserTestingDisplayTheText" description="click on Interaction Navigation Menu bar, then click on selectable option, then click on Serialize tab, then click on Sakinalium - Cross Browser Testing option. after click on Sakinalium - Cross Browser Testing some text value will display . Fetch that text value" finished-at="2025-03-07T21:15:27 IST" duration-ms="2036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClickOnSeleniumCrossBrowserTestingDisplayTheText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.FormManagement_L1_TestCases@552518c3]" started-at="2025-03-07T21:15:30 IST" name="tearDown" finished-at="2025-03-07T21:15:31 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.FormManagement_L1_TestCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

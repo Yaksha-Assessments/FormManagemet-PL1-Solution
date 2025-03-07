@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">9</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">76,752</td><td>sanity</td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testcases.FormManagement_L1_TestCases</td><td><a href="#m0">clickOnRegisterLinkAndFillTheForms</a></td><td rowspan="1">1741362278884</td><td rowspan="1">2</td></tr><tr class="failedeven"><td><a href="#m1">handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup</a></td><td rowspan="1">1741362270166</td><td rowspan="1">5150</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="9">testcases.FormManagement_L1_TestCases</td><td><a href="#m2">afterClickOnSeleniumCrossBrowserTestingDisplayTheText</a></td><td rowspan="1">1741362325903</td><td rowspan="1">2036</td></tr><tr class="passedeven"><td><a href="#m3">checkAndUncheckEachCheckBoxAndValidateThatCheckBox</a></td><td rowspan="1">1741362300550</td><td rowspan="1">532</td></tr><tr class="passedeven"><td><a href="#m4">clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne</a></td><td rowspan="1">1741362281916</td><td rowspan="1">11840</td></tr><tr class="passedeven"><td><a href="#m5">clickOnSwitchToAlertandValidateTitleOfPage</a></td><td rowspan="1">1741362264819</td><td rowspan="1">2316</td></tr><tr class="passedeven"><td><a href="#m6">fillTheDetailsAndClickOnTheSubmitButton</a></td><td rowspan="1">1741362315306</td><td rowspan="1">6997</td></tr><tr class="passedeven"><td><a href="#m7">selectAustraliaInCountryDrpdownAndValidate</a></td><td rowspan="1">1741362297391</td><td rowspan="1">121</td></tr><tr class="passedeven"><td><a href="#m8">selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect</a></td><td rowspan="1">1741362304120</td><td rowspan="1">4217</td></tr><tr class="passedeven"><td><a href="#m9">selectMonthYearDateInDropdown</a></td><td rowspan="1">1741362311843</td><td rowspan="1">443</td></tr><tr class="passedeven"><td><a href="#m10">validateTitleOfHomePage</a></td><td rowspan="1">1741362260627</td><td rowspan="1">229</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">testcases.FormManagement_L1_TestCases#clickOnRegisterLinkAndFillTheForms</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.apache.poi.openxml4j.exceptions.NotOfficeXmlFileException: No valid entries or contents found, this is not a valid OOXML (Office Open XML) file
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:156)
+	at org.apache.poi.openxml4j.util.ZipInputStreamZipEntrySource.&lt;init&gt;(ZipInputStreamZipEntrySource.java:94)
+	at org.apache.poi.openxml4j.opc.ZipPackage.&lt;init&gt;(ZipPackage.java:132)
+	at org.apache.poi.openxml4j.opc.OPCPackage.open(OPCPackage.java:319)
+	at org.apache.poi.ooxml.util.PackageHelper.open(PackageHelper.java:59)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:290)
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.&lt;init&gt;(XSSFWorkbook.java:286)
+	at coreUtilities.utils.FileOperations.readExcelPOI(FileOperations.java:44)
+	at testcases.FormManagement_L1_TestCases.clickOnRegisterLinkAndFillTheForms(FormManagement_L1_TestCases.java:81)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+Caused by: java.util.zip.ZipException: Unexpected record signature: 0X90A0D7B
+	at org.apache.commons.compress.archivers.zip.ZipArchiveInputStream.getNextZipEntry(ZipArchiveInputStream.java:260)
+	at org.apache.poi.openxml4j.util.ZipArchiveThresholdInputStream.getNextEntry(ZipArchiveThresholdInputStream.java:152)
+	... 23 more
+... Removed 12 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.FormManagement_L1_TestCases#handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=122.0.6261.95)
+Build info: version: &apos;4.10.0&apos;, revision: &apos;c14d967899&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [200202bc8306fac815e5e577f96afd85, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.95, chrome: {chromedriverVersion: 122.0.6261.94 (880dbf29479c..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50596}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50596/devtoo..., se:cdpVersion: 122.0.6261.95, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 200202bc8306fac815e5e577f96afd85
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:199)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:132)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:531)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:590)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:594)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteAlert.getText(RemoteWebDriver.java:1105)
+	at pages.FormManagement_L1_Pages.handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup(FormManagement_L1_Pages.java:133)
+	at testcases.FormManagement_L1_TestCases.handleAlertsPopupAndValidateTheTextInsideAnAlertsPopup(FormManagement_L1_TestCases.java:73)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:842)
+... Removed 17 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.FormManagement_L1_TestCases#afterClickOnSeleniumCrossBrowserTestingDisplayTheText</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testcases.FormManagement_L1_TestCases#checkAndUncheckEachCheckBoxAndValidateThatCheckBox</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.FormManagement_L1_TestCases#clickOnCountryDropDownAndSelectEachCountryOptionsOneByOne</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.FormManagement_L1_TestCases#clickOnSwitchToAlertandValidateTitleOfPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testcases.FormManagement_L1_TestCases#fillTheDetailsAndClickOnTheSubmitButton</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testcases.FormManagement_L1_TestCases#selectAustraliaInCountryDrpdownAndValidate</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testcases.FormManagement_L1_TestCases#selectEachRadioOptionsForGenderValidateThatOnlyOneRadioButtonShouldBeSelect</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testcases.FormManagement_L1_TestCases#selectMonthYearDateInDropdown</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testcases.FormManagement_L1_TestCases#validateTitleOfHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
